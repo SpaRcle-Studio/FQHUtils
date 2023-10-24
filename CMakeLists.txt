@@ -6,10 +6,3 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 project(HullUtils)
 add_subdirectory(src)
-
-option(BUILD_HULL_TESTS "" OFF)
-if(BUILD_HULL_TESTS)
-	project(Hull-Tests)
-    add_subdirectory(tests)
-endif()
-
